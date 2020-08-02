@@ -1,0 +1,105 @@
+/*-------------navigation-------------*/
+.navigation{
+    box-sizing: content-box;
+    display: flex;
+    margin: auto;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+}
+span{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+.nav-menu{
+    display: flex;
+    width: 700px;
+    text-align: justify;
+}
+.nav-items{
+    margin: auto;
+    list-style: none;
+    height: 30px;
+    padding-top: 9px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.nav-items:hover{
+    background:  #6F4E37;
+    color: white;
+    cursor: pointer;
+}
+/*-----X-----navigation-----X-------*/
+
+
+/*----------background------------*/
+.background{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.background-text1{
+    position: absolute;
+    bottom: 350px;
+    right: 90px;
+    color: whitesmoke;
+    font-size: 40px;
+}
+.background-text2{
+    position: absolute;
+    bottom: 300px;
+    right: 113px;
+    color: whitesmoke;
+    font-size: 40px;}
+
+.button{
+    position: absolute;
+    bottom: 150px;
+    right: 113px;
+    border-color: black;
+    font-size: 30px;
+    border-width: medium;
+    border-radius: 28px 28px;
+    background-color: cadetblue;
+    padding: 10px;
+}
+.button:hover{
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+/*-----X----background----X-------*/
+/*-----------about us-------------*/
+
+.about-us{
+    width: 778px;
+    height: 400px;
+    display: flex;
+}
+.about-us-head{
+    position: relative;
+    font-weight: bolder;
+    top: 50px;
+    left: 250px;
+    font-size: 30px;
+}
+
+.about-us-disc{
+    max-width: 600px;
+    position: relative;
+    top: 80px;
+    left: 20px;
+    text-align: justify;
+}
+
+.about-us-image{
+    width: 300px;
+    height: 300px;
+}
+}
+/*-----X-----about us-----X-------*/

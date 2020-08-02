@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ylearning</title>
+    <link rel="stylesheet" href="{% static 'landing/style.css' %}">
+</head>
+<body>
+    <!----------------Navigation-------------------->
+    <nav>
+        <div class="navigation">
+            <img class= "logo" src="{% static 'landing/logo.png' %}" alt="">
+            <span>Ylearning</span>
+            <ul class="nav-menu">
+                <li class="nav-items">Home</li>
+                <li class="nav-items">About Us</li>
+                <li class="nav-items">Services</li>
+                <li class="nav-items">Our Team</li>
+                <li class="nav-items">Price Plan</li>
+                <li class="nav-items">Contact Us</li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--------X-------Navigation---------X---------->
+    <!-------------------Body----------------------->
+    <!----------------Background-------------------->
+    <section>
+        <img class="background" src="{% static 'landing/background.jpg' %}" alt="">
+        <div class="background-text1">The "Why"</div>
+        <div class="background-text2">Concept</div>
+        <button class="button">Explore</button>
+    </section>
+
+    <!---------X------Background----------X--------->
+    
+    
+    <!--------------about us----------------->
+
+    <section class="about-us">
+        <div class="about-us-head">About Us</div>
+        <div class="about-us-disc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+        </div>
+        <img class= "about-us-image" src="{% static 'landing/logo.png' %}" alt="">
+    </section>
+    <!--------------about us----------------->
+    <!--------X-----------Body-----------X---------->
+
+
+
+</body>
+</html>
